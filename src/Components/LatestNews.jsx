@@ -5,7 +5,7 @@ const LatestNews = () => {
     return (
         <div className='flex items-center gap-5 bg-base-200 p-3'>
            <p className='text-base-100 bg-secondary px-3 py-2 font-bold'>Latest</p>
-           <Marquee className='flex gap-5'pauseOnHover={true} speed={60}><p>dvffghh Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione impedit reiciendis magnam earum dignissimos velit. Corrupti iure tenetur inventore nobis libero dicta sapiente consequatur ad necessitatibus incidunt, repellat veritatis?</p></Marquee>
+           <Marquee className='flex gap-5'pauseOnHover={true} speed={60}><p>📰 Breaking: React 19 released with built-in cache and async hooks!💼 Business: Stock market hits record high amid tech boom.🌍 World News: Major climate agreement reached in UN summit.⚽ Sports: Local team wins national championship!</p></Marquee>
            
         </div>
     );
